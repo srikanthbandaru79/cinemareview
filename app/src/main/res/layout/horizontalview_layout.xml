@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+   >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+
+
+   >
+
+    <ImageView
+        android:id="@+id/dPoster1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/dTitle1"
+        android:textSize="20sp"
+        android:text="Title"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="#00BCD4"
+        android:fontFamily="@font/amar"
+
+       />
+    <TextView
+        android:id="@+id/dRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="4dp"
+        android:background="@drawable/circular_text"
+        android:fontFamily="@font/amar"
+        android:padding="4dp"
+        android:text="Rating"
+        android:textColor="#FF9800"
+        android:textSize="18sp"
+        android:gravity="center"
+
+
+        />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

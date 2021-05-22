@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "685264603893",
+    "project_id": "cinemareview-e0c6f",
+    "storage_bucket": "cinemareview-e0c6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685264603893:android:37fb5d34b29ccd931253bc",
+        "android_client_info": {
+          "package_name": "com.srikanth.cinemareview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685264603893-et0i1ms0qmv2trpmlinp5os187f3ifnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlyBDFY_nkUBfXHDzKKnROmFCr9ee13Vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685264603893-et0i1ms0qmv2trpmlinp5os187f3ifnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+      >
+
+        <ImageView
+            android:id="@+id/imageview_backdrop_details"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"
+           />
+        <TextView
+            android:id="@+id/title_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:layout_below="@id/imageview_backdrop_details"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:padding="8dp"
+            android:fontFamily="@font/amab"
+
+            />
+        <TextView
+            android:id="@+id/overview_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Overview"
+            android:layout_below="@id/title_detail"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:fontFamily="@font/amar"
+
+            />
+        <TextView
+            android:id="@+id/rating_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IMDB Rating"
+            android:layout_below="@id/overview_detail"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:fontFamily="@font/amar"
+
+            />
+        <TextView
+            android:id="@+id/release_date_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Release Date"
+            android:layout_below="@id/rating_detail"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:fontFamily="@font/amar"
+
+            />
+
+        <TextView
+            android:id="@+id/language_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:layout_below="@id/release_date_details"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:fontFamily="@font/amar"
+
+            />
+        <TextView
+            android:id="@+id/releated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Releated :"
+            android:layout_below="@id/language_detail"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:fontFamily="@font/amar"
+
+            />
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/releated"
+            android:background="#92000000"
+            android:layout_marginBottom="8dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewreleated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view"
+            />
+
+    </RelativeLayout>
+</ScrollView>

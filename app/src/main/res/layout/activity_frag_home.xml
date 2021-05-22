@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewtrend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <TextView
+            android:id="@+id/popular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amab"
+            android:padding="8dp"
+            android:text="Popular Movies"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/recyclerviewtrend"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/popular" />
+
+
+        <TextView
+            android:id="@+id/toprated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recyclerview1"
+            android:fontFamily="@font/amab"
+            android:padding="8dp"
+            android:text="Top Rated Movies"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toprated" />
+
+        <TextView
+            android:id="@+id/populartv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amab"
+            android:padding="8dp"
+            android:text="Popular TV Shows"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/recyclerview2"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/populartv" />
+
+        <TextView
+            android:id="@+id/topratedtv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amab"
+            android:padding="8dp"
+            android:text="Top Rated TV Shows"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/recyclerview3"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topratedtv" />
+
+    </RelativeLayout>
+
+</ScrollView>
